@@ -20,4 +20,9 @@ block content
         "furniture_cost" : "500"
       },
     ]
-  div(class="c") 
+  div(class="container-fluid") 
+    div(class="row")
+      each item,index in results 
+        div(class="col-sm-2") Name: #{item.furniture_name}
+        div(class="col-sm-2") Specification: #{item.furniture_specification}
+        div(class="col-sm-2") Cost: #{item.furniture_cost}
