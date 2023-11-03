@@ -1,5 +1,5 @@
 {
-  "name": "f23wb06basina",
+  "name": "s23db06basina",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -13,8 +13,8 @@
     "morgan": "^1.10.0",
     "pug": "^3.0.2"
   },
+  "description": "Hosted at [Link](https://f23wb06basina.onrender.com) <br>\r My Class is Furniture<br>\r My Attributes are furniture_name(string),furniture_specification(string),furniture_cost(number)",
   "main": "app.js",
   "author": "",
-  "license": "ISC",
-  "description": ""
+  "license": "ISC"
 }
